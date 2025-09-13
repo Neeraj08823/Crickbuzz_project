@@ -1,0 +1,153 @@
+{
+  "typeMatches": [
+    {
+      "matchType": "League",
+      "seriesMatches": [
+        {
+          "seriesAdWrapper": {
+            "seriesId": 9257,
+            "seriesName": "T20 Blast 2025",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 111085,
+                  "seriesId": 9257,
+                  "seriesName": "T20 Blast 2025",
+                  "matchDesc": "1st Semi-Final",
+                  "matchFormat": "T20",
+                  "startDate": "1757757600000",
+                  "endDate": "1757770200000",
+                  "state": "In Progress",
+                  "status": "Lancashire opt to bowl",
+                  "team1": {
+                    "teamId": 119,
+                    "teamName": "Somerset",
+                    "teamSName": "SOM",
+                    "imageId": 172199
+                  },
+                  "team2": {
+                    "teamId": 143,
+                    "teamName": "Lancashire",
+                    "teamSName": "LANCS",
+                    "imageId": 172210
+                  },
+                  "venueInfo": {
+                    "id": 20,
+                    "ground": "Edgbaston",
+                    "city": "Birmingham",
+                    "timezone": "+01:00",
+                    "latitude": "52.455774",
+                    "longitude": "-1.902624"
+                  },
+                  "currBatTeamId": 119,
+                  "seriesStartDt": "1748390400000",
+                  "seriesEndDt": "1757808000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 21,
+                      "wickets": 1,
+                      "overs": 3.5
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Domestic",
+      "seriesMatches": [
+        {
+          "seriesAdWrapper": {
+            "seriesId": 10311,
+            "seriesName": "Duleep Trophy 2025",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 123688,
+                  "seriesId": 10311,
+                  "seriesName": "Duleep Trophy 2025",
+                  "matchDesc": "Final",
+                  "matchFormat": "TEST",
+                  "startDate": "1757563200000",
+                  "endDate": "1757934000000",
+                  "state": "In Progress",
+                  "status": "Day 3: 3rd Session - South Zone trail by 276 runs",
+                  "team1": {
+                    "teamId": 236,
+                    "teamName": "South Zone",
+                    "teamSName": "SZONE",
+                    "imageId": 172289
+                  },
+                  "team2": {
+                    "teamId": 237,
+                    "teamName": "Central Zone",
+                    "teamSName": "CZONE",
+                    "imageId": 172290
+                  },
+                  "venueInfo": {
+                    "id": 1438087,
+                    "ground": "BCCI Centre of Excellence Ground",
+                    "city": "Bengaluru",
+                    "timezone": "+05:30",
+                    "latitude": "12.978853",
+                    "longitude": "77.599533"
+                  },
+                  "currBatTeamId": 236,
+                  "seriesStartDt": "1756252800000",
+                  "seriesEndDt": "1757980800000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 149,
+                      "wickets": 10,
+                      "overs": 62.6
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 86,
+                      "wickets": 2,
+                      "overs": 21.3
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 511,
+                      "wickets": 10,
+                      "overs": 145.1
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "filters": {
+    "matchType": [
+      "International",
+      "League",
+      "Domestic",
+      "Women"
+    ]
+  },
+  "appIndex": {
+    "seoTitle": "Live Cricket Score - Scorecard and Match Results",
+    "webURL": "www.cricbuzz.com/live-cricket-scores/"
+  },
+  "responseLastUpdated": "1757758565"
+}
