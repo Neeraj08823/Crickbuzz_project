@@ -76,11 +76,11 @@ st.markdown(""" <div style="border: 2px solid #01b489; margin-bottom: 15px;"> </
 st.markdown('<div class="page-row">', unsafe_allow_html=True)
 cols = st.columns(3, gap="large")
 with cols[0]:
-    st.page_link("pages/1_Live_Matches.py", label="Live Match Page")
+    st.page_link("pages/1_Live_Matches.py", label="Match Timelines")
 with cols[1]:
-    st.page_link("pages/2_Top_Player_Stats.py", label="Top Players Page")
+    st.page_link("pages/2_Top_Player_Stats.py", label="Top Players")
 with cols[2]:
-    st.page_link("pages/3_SQL_Analytics.py", label="SQL Queries Page")
+    st.page_link("pages/3_SQL_Analytics.py", label="Queries")
 
 st.markdown('<div class="page-row">', unsafe_allow_html=True)
 

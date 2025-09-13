@@ -112,7 +112,7 @@ with col1:
     st.subheader("🧩 Select Analysis Query")
     selected_label = st.selectbox("", comment_list, label_visibility='collapsed')
     selected_idx = comment_list.index(selected_label)
-    run_query = st.button("🚀 Execute", use_container_width=True)
+    run_query = st.button("Ask ❔", use_container_width=True)
     if run_query:
         st.success("✅ Query Executed Successfully!")
 
