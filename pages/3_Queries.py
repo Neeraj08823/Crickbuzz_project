@@ -7,7 +7,7 @@ import pandas as pd
 from pathlib import Path
 import base64
 
-st.set_page_config(page_title="SQL Analytics", page_icon="🏏", layout="wide")
+st.set_page_config(page_title="Match Analytics", page_icon="🏏", layout="wide")
 
 load_dotenv()
 DB_HOST = os.getenv("DB_HOST", "localhost")
@@ -80,7 +80,7 @@ st.markdown(f'<div class="logo-box">{logo_html}</div>', unsafe_allow_html=True)
 # Title
 st.markdown('<div class="title">🏏 MatchInfo</div>', unsafe_allow_html=True)
 st.markdown(""" <div style="border: 2px solid #01b489; margin-bottom: 15px;"> </div>""", unsafe_allow_html=True)
-st.title("📑 SQL Analytics")
+st.title("📑 Match Analytics")
 
 # ---------- Load and Parse SQL Queries ----------
 def parse_queries_with_comments(script):
@@ -109,10 +109,10 @@ comment_list = [item[0][2:].strip() if item[0].startswith('--') else item[0] for
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    st.subheader("🧩 Select Analysis Query")
+    st.subheader("🧩 Select Query")
     selected_label = st.selectbox("", comment_list, label_visibility='collapsed')
     selected_idx = comment_list.index(selected_label)
-    run_query = st.button("Ask ❔", use_container_width=True)
+    run_query = st.button("Ask❔", use_container_width=True)
     if run_query:
         st.success("✅ Query Executed Successfully!")
 
