@@ -91,7 +91,7 @@ st.markdown(
     <div style="text-align: center; padding: 12px; font-size: 14px; color: #aaa;">
         Build using <a href="https://streamlit.io/" target="_blank" style="color:#FF4B4B; text-decoration: none;">Streamlit</a> & MySQL<br>
         © 2025 Neeraj Kumar | 
-        <a href="https://github.com/Neeraj08823/Local-Food-Wastage-Management-System" target="_blank" style="color:#FF4B4B; text-decoration: none;">GitHub Repo</a>
+        <a href="https://github.com/Neeraj08823/Crickbuzz_project" target="_blank" style="color:#FF4B4B; text-decoration: none;">GitHub Repo</a>
     </div>
     """,
     unsafe_allow_html=True
