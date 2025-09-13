@@ -118,10 +118,6 @@ with col1:
 
 with col2:
     if run_query:
-        st.subheader("📝 SQL Query")
-        sql_code = f"{queries[selected_idx][0]}\n{queries[selected_idx][1]}"
-        st.code(sql_code, language="sql")
-
         st.subheader("📊 Details")
         try:
             conn = get_connection()

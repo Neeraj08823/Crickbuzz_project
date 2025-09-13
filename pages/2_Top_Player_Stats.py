@@ -15,14 +15,23 @@ DB_PASSWORD = os.getenv("DB_PASSWORD", "")
 DB_NAME = os.getenv("DB_NAME", "cricbuzz_db")
 
 def get_connection():
-    return mysql.connector.connect(
-        host=DB_HOST,
-        user=DB_USER,
-        password=DB_PASSWORD,
-        database=DB_NAME
-    )
-
-
+    if "mysql" in st.secrets:  # when running on Streamlit Cloud
+        return mysql.connector.connect(
+            host=st.secrets["mysql"]["host"],
+            port=st.secrets["mysql"].get("port", "3306"),
+            user=st.secrets["mysql"]["user"],
+            password=st.secrets["mysql"]["password"],
+            database=st.secrets["mysql"]["database"]
+        )
+    else:  # local development with .env
+        return mysql.connector.connect(
+            host=DB_HOST,
+            user=DB_USER,
+            password=DB_PASSWORD,
+            database=DB_NAME
+        )
+    
+# ---------- CUSTOM CSS ----------
 st.markdown("""
 <style>
 .logo-box {
