@@ -3,3 +3,4 @@ pymysql
 python-dotenv
 pandas
 streamlit
+mysql-connector-python
